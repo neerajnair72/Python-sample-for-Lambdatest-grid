@@ -27,5 +27,5 @@ steps:
 
 - script: |
     pip install pytest pytest-azurepipelines
-    android.py
+    python android.py
   displayName: 'android'
