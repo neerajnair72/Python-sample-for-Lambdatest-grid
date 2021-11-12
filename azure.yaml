@@ -11,7 +11,7 @@ pool:
 strategy:
   matrix:
     Python27:
-      python.version: '2.7'
+      python.version: '3.7.4'
    
 
 steps:
@@ -21,7 +21,7 @@ steps:
   displayName: 'Use Python $(python.version)'
 
 - script: |
-    python -m pip install --upgrade pip
+    
     pip install Appium-Python-Client
     pip install -r requirements.txt
   displayName: 'Install dependencies'
