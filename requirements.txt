@@ -1,2 +1,1 @@
 selenium==3.141.0
-Appium==1.21.0
